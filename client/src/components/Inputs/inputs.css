@@ -1,0 +1,13 @@
+
+.passwordIcon {
+    top:40%;
+    right: 0px;
+    transform: translateY(-60%)
+}
+
+.passwordIconCenter {
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%)
+}
+

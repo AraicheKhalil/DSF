@@ -1,0 +1,14 @@
+.img-magnifier-glass {
+    position: absolute;
+    border: 1px solid #000;
+    /* border-radius: 50%; */
+    cursor: none;
+    width: 250px;
+    /* Adjust as needed */
+    height: 190px;
+    /* Adjust as needed */
+    display: none;
+    pointer-events: none;
+    /* Ensure it doesn't interfere with mouse events */
+    z-index: 1000;
+}

@@ -1,0 +1,13 @@
+
+
+.Card {
+    -webkit-backdrop-filter: blur(55px);
+    backdrop-filter: blur(55px);
+    border: solid 1px #201f30;
+    background-color: rgba(3, 0, 20, 0.4);
+    border: 1px solid #475569;
+}
+
+.Card:nth-child(2) {
+    box-shadow: rgba(182, 164, 164, 0.35) 0px 5px 15px;
+}

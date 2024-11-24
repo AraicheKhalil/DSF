@@ -1,0 +1,37 @@
+
+
+.div-tab{
+    height: calc(100vh - 180px);
+}
+
+.rendered-image{
+  height: calc(100vh - 80px);
+  border-radius: 8px;
+}
+
+/* .exel-table{
+  height: calc(100vh - 30%);
+} */
+
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px;
+  }
+
+  html::-webkit-scrollbar{
+    height: 20px;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+    background: #a3a3a3; 
+    border-radius: 0px; 
+  }
+
+  ::-webkit-scrollbar-track:hover {
+    background: #f1f1f1; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }

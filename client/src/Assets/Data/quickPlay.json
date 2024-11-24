@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "978-0-316-76948-0",
+      "genre": "Fiction",
+      "description": "A novel about a disenchanted teenager named Holden Caulfield.",
+      "publication_year": 1951,
+      "language": "English",
+      "cover_image": "catcher-in-the-rye.jpg",
+      "total_copies": 5,
+      "available_copies": 3,
+      "location": "Fiction Section, Shelf A",
+      "is_borrowed": false
+    }
+]
+}

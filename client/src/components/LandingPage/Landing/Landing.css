@@ -1,0 +1,23 @@
+
+
+.Landing{
+    min-height : calc(100vh - 81px);
+}
+
+.Ellipse-230 {
+    /* z-index: 10; */
+    position: absolute;
+    width: 1135px;
+    height: 153px;
+    opacity: 0.23;
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    background-color: #51607c;
+    top: -30px;
+}
+
+.workspace .Dashboard{
+    -webkit-backdrop-filter: blur(48px);
+  backdrop-filter: blur(48px);
+  background-color: rgba(78, 77, 88, 0.3);
+}

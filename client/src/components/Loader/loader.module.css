@@ -1,0 +1,129 @@
+.loader {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color: var(--black);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.loader span{
+    position: absolute;
+    width: 70px;
+    height: 70px;   
+    animation: blinking .4s linear infinite;
+    border-radius: 10px;
+}
+
+.loader span:nth-child(1) {
+    border-top:10px solid var(--golden);
+    border-left: 10px solid var(--golden);
+    top: 10px;
+    left: 10px;
+}
+
+.loader span:nth-child(2) {
+    border-top: 10px solid var(--golden);
+    border-right: 10px solid var(--golden);
+    top: 10px;
+    right: 10px;
+}
+.loader span:nth-child(3) {
+    border-bottom: 10px solid var(--golden);
+    border-left: 10px solid var(--golden);
+    bottom: 10px;
+    left: 10px;
+}
+.loader span:nth-child(4) {
+    border-bottom: 10px solid var(--golden);
+    border-right: 10px solid var(--golden);
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.scan{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    
+    /* background: url("../../Assets/images/gray.png"); */
+    /* background: url("../../Assets/images/loaderGray.png"); */
+    background: url("../../Assets/images/loaderyellow.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* .scan::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url("../../Assets/images/green.png");
+    background: url("../../Assets/images/loaderyellow.png");
+background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: imageHeight 4s linear infinite;
+} */
+
+@keyframes imageHeight {
+    0%,100%{
+        height: 1px;
+    }
+    50%{
+        height: calc(100% - 0px);
+    }
+}
+
+.scan::after {
+    content: "";
+    position: absolute;
+    inset: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    height: 2px;
+    background-color: var(--golden);
+    animation: animateLine 4s linear infinite;
+}
+
+
+@keyframes animateLine {
+
+    0%,
+    100% {
+        top: 8px;
+    }
+
+    50% {
+        top:calc(100% - 10px);
+    }
+}
+
+
+.text{
+    color:rgb(218, 218, 218);
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    filter: drop-shadow(0 0 20px var(--white)) drop-shadow(0 0 60px var(--white)) ;
+    animation: blinking .4s linear infinite;
+}
+
+@keyframes blinking {
+    0%,100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+

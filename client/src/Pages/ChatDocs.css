@@ -1,0 +1,103 @@
+/* General Styles */
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+
+.text-gray-800 {
+    color: #2d3748;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-gray-500 {
+    color: #a0aec0;
+}
+
+.bg-blue-100 {
+    background-color: #ebf8ff;
+}
+
+.text-blue-800 {
+    color: #2a4365;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-gray-200 {
+    background-color: #edf2f7;
+}
+
+.text-gray-600 {
+    color: #718096;
+}
+
+.bg-gray-800 {
+    background-color: #2d3748;
+}
+
+.text-gray-300 {
+    color: #e2e8f0;
+}
+
+.border-gray-300 {
+    border-color: #e2e8f0;
+}
+
+.hover\:bg-gray-700:hover {
+    background-color: #4a5568;
+}
+
+/* Layout Adjustments */
+.flex-1 {
+    flex: 1;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.space-y-4>*+* {
+    margin-top: 1rem;
+}
+
+.max-w-xs {
+    max-width: 20rem;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
