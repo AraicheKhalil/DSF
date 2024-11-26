@@ -166,7 +166,7 @@ export default function Register() {
 
       setSuccessMessage('OTP verified successfully!')
       await new Promise((res) => setTimeout(res,3000))
-      window.location.href = "https://smt-omega.vercel.app/login"
+      navigate("/login")
     } catch (err) {
       setError(err.message || 'An unexpected error occurred. Please try again.')
     } finally {
